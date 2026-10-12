@@ -1,52 +1,36 @@
-# Dual-Track Portfolio (UI/UX Design & Frontend Engineering)
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A modern, high-performance web portfolio built with **Next.js 16**, **React 19**, **TypeScript**, and **Vanilla CSS Design Tokens**.
+## Getting Started
 
-## 🌟 Key Features
+First, run the development server:
 
-1. **Dual Track Portfolio Switcher**:
-   - **🎨 UI/UX Design Track**: Dedicated section for design systems, Figma file/prototype links, UX research, wireframes, and case studies.
-   - **💻 Frontend Engineering Track**: Dedicated section for live production web apps, Next.js/React architectures, GitHub code repositories, and Lighthouse metrics.
-   - **All Works**: Combined overview with interactive domain badges.
-
-2. **Interactive In-App Customization & Edit Mode**:
-   - **Profile Picture Changer**: Upload a photo from your computer (persisted via LocalStorage) or paste an image URL directly.
-   - **Live Project Editor**: Add, modify, or delete any UI/UX or Frontend project directly from the interface.
-   - **Contact Details Customizer**: Update your WhatsApp number, pre-filled WhatsApp message, Email address, and social links (Figma, GitHub, LinkedIn).
-   - **Backup & Reset**: Export your portfolio data as JSON or restore it at any time.
-
-3. **Instant Direct Contact**:
-   - **Direct WhatsApp Chat**: One-click connection to WhatsApp (`wa.me`) with custom greeting text.
-   - **Email Integration**: Direct `mailto` link and one-click "Copy Email" with toast feedback.
-   - **Interactive Contact Form**: Project type selector (UI/UX, Frontend, or Full Stack) and pre-filled email composition.
-
-4. **Modern Design System & Themes**:
-   - Switchable **Dark & Light Mode** with smooth CSS variable transitions.
-   - Glassmorphic frosted cards, subtle neon glows, and micro-animations.
-
----
-
-## 🚀 How to Run Locally
-
-### Option 1: From the Root Directory
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-### Option 2: From the `portfolio-web` Directory
-```bash
-cd portfolio-web
-npm run dev
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 🛠️ Build for Production
+## Learn More
 
-```bash
-cd portfolio-web
-npm run build
-npm run start
-```
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
