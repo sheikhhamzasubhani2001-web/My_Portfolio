@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix portfolio-web run dev",
+    "build": "npm --prefix portfolio-web run build",
+    "start": "npm --prefix portfolio-web run start"
+  }
+}
